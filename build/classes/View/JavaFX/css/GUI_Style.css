@@ -1,0 +1,233 @@
+.unselectedButton
+{
+    -fx-background-color: #3F2B63;
+    -fx-font-family: "Arial Black", Bold;
+    -fx-font-size: 19px;
+    -fx-text-fill: WHITE;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-background-radius: 0;
+}
+.unselectedButton:hover
+{
+    -fx-background-color: #2A1C42; 
+}
+.unselectedButton:pressed
+{
+    -fx-background-color: #7156DD;
+    -fx-font-family: "Arial Black", Bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: WHITE;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+}
+.selectedButton
+{
+    -fx-background-color: #7156DD;
+    -fx-border-color: #FFFF8D;
+    -fx-border-width: 0px 0px 0px 3px;
+    -fx-font-family: "Arial Black", Bold;
+    -fx-font-size: 19px;
+    -fx-text-fill: WHITE;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-background-radius: 0;
+}
+.confirmButton
+{
+    -fx-background-color: #3F2B63;
+    -fx-font-family: "Arial Black", Bold;
+    -fx-font-size: 20px;
+    -fx-text-fill: WHITE;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-background-radius: 0;
+}
+.confirmButton:hover
+{
+    -fx-background-color: #2A1C42;
+    -fx-border-width: 10px 0px 10px 0px;
+    -fx-border-color: #3F2B63;
+}
+.confirmButton:pressed
+{
+    -fx-background-color: #7156DD;
+    -fx-font-family: "Arial Black", Bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: WHITE;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-border-width: 10px 0px 10px 0px;
+    -fx-border-color: #3F2B63;
+}
+.vbox
+{
+    -fx-background-color: #3F2B63;
+}
+.tab
+{
+    -fx-background-color: #3F2B63;
+    -fx-pref-width: 425;
+    -fx-min-width: 10;
+    -fx-pref-height: 60;
+}
+.tab:hover
+{
+    -fx-background-color: #2A1C42;
+}
+.tab:selected
+{
+    -fx-background-color: #7156DD;
+}
+.tab-header-background
+{
+    -fx-background-color: #3F2B63;
+}
+.tab-label
+{
+    -fx-font-family: "Arial Black", Bold;
+    -fx-font-size: 19px;
+    -fx-text-fill: WHITE;
+}
+.textFieldLabel
+{
+    -fx-background-color: #3F2B63;
+    -fx-font-family: "Arial Black", Bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: WHITE;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-border-width: 10px 0px 10px 0px;
+    -fx-border-color: #3F2B63;
+}
+.smallButton
+{
+    -fx-background-color: #3F2B63;
+    -fx-font-family: "Arial Black", Bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: WHITE;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-background-radius: 0;
+}
+.smallButton:hover
+{
+    -fx-background-color: #2A1C42;
+}
+.smallButton:pressed
+{
+    -fx-background-color: #7156DD;
+    -fx-font-family: "Arial Black", Bold;
+    -fx-font-size: 12px;
+    -fx-text-fill: WHITE;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+}
+.border
+{
+    -fx-background-color: #3F2B63;
+}
+.text-field
+{
+    -fx-font-family: "Arial";
+    -fx-font-size: 15px;
+    -fx-text-fill: #3F2B63;
+    -fx-border-width: 10px 0px 10px 0px;
+    -fx-border-color: #3F2B63;
+    -fx-background-color: #f4f4f4;
+}
+.text-area
+{
+    -fx-font-family: "Arial";
+    -fx-text-fill: #3F2B63;
+    -fx-font-size: 15px;
+}
+.menu-bar
+{
+    -fx-background-color: #3F2B63;
+}
+.menu-bar .label
+{
+    -fx-text-fill: WHITE;
+}
+.menu
+{
+    -fx-background-color: #3F2B63;
+}
+.menu .label
+{
+    -fx-text-fill: WHITE;
+    -fx-font-family: "Arial";
+}
+.menu:hover
+{
+    -fx-background-color: #7156DD;
+}
+.menu:showing
+{
+    -fx-background-color: #7156DD;
+}
+.menu-item
+{
+    -fx-background-color: #2A1C42;
+}
+.menu-item .label
+{
+    -fx-text-fill: WHITE;
+    -fx-font-family: "Arial";
+}
+.menu-item:hover
+{
+    -fx-background-color: #7156DD;
+}
+.context-menu 
+{
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: #2A1C42;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; /* 4 1 8 1 */
+}
+.dialog-pane
+{
+    -fx-background-color: #3F2B63;
+}
+.dialog-pane .label {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial";
+    -fx-font-size: 15px;
+}
+.dialog-pane:header .header-panel {
+    -fx-background-color: #7156DD;
+}
+.dialog-pane:header .header-panel .label {
+    -fx-background-color: #7156DD;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 15px;
+}
+.dialog-pane .button
+{
+    -fx-background-color: #3F2B63;
+    -fx-font-family: "Arial Black", Bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: WHITE;
+    -fx-pref-height: 36;
+}
+.dialog-pane .button:hover
+{
+    -fx-background-color: #2A1C42;
+}
+.dialog-pane .button:pressed
+{
+    -fx-background-color: #7156DD;
+    -fx-font-family: "Arial Black", Bold;
+    -fx-font-size: 12px;
+    -fx-text-fill: WHITE;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+}
+.border-pane
+{
+    -fx-background-color: #2A1C42;
+}
