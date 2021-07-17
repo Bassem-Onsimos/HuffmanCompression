@@ -18,7 +18,8 @@ Min Heap is used as a priority queue. The frequency is used to compare two nodes
 
 For optimization, we traverse the Huffman tree one time only, generating the codes and encoding the tree at the same time. The following function is called starting at the root of the tree and with an empty string:
 
-### TraverseTree(Node node, String code): if (node.IsLeafNode):
+### TraverseTree(Node node, String code): 
+if (node.IsLeafNode):
 - HuffmanCodes.add(node.data, code)
 - Write ‘1’
 - Write node.data (1 byte)
@@ -29,7 +30,8 @@ else:
 
 ## DECODING THE TREE
 
-### DecodeNode(String code): if (Read_Bit == 1):
+### DecodeNode(String code): 
+if (Read_Bit == 1):
 - HuffmanCodes.add(Read_Byte, code) else:
 - DecodeNode(code + ‘0’) //left
 - DecodeNode(code + ‘1’) //right
