@@ -1,5 +1,5 @@
 # **HUFFMAN CODING**
-## *Compression & Decompression*
+*Compression & Decompression*
 
 ## OVERVIEW
 
